@@ -1,0 +1,12 @@
+id = "turso-context-server"
+name = "Turso Context Server"
+description = "Model Context Server for Turso"
+version = "0.0.1"
+schema_version = 1
+authors = ["Jamie Barton <jamie@notrab.dev>"]
+repository = "https://github.com/notrab/turso-context-server"
+
+[context_servers.turso-context-server]
+name = "Turso Context Server"
+description = "Provides structured context from Turso"
+command = "turso-context-server"
